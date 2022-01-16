@@ -1,0 +1,167 @@
+html{
+    width: 1440px;
+}
+
+body{
+    margin: 0 auto;
+
+}
+
+/*Estilos del header*/
+
+header{
+    box-shadow: inset 0px 0px 0px 1px black;
+    background-color: rgba(0, 110, 255, 0.945);
+    padding: 10px 0px;
+}
+
+#titulo{
+    margin: auto;
+    font-size: 60px;
+    font-style: italic;
+    margin-left: 5%;
+    color: white;
+}
+
+/*Estilos del nav*/
+
+nav{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 1px black;
+    background-color: rgba(51, 51, 51, 0.87);
+    height: 65px;
+}
+
+nav div{
+    text-align: center;
+}
+
+nav div a{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos de las cajas flex */
+
+#caja1{
+    width:400px ;
+    flex-grow: 1;
+}
+
+#caja2{
+    width:500px ;
+    flex-grow: 1;
+}
+
+#caja3{
+    width: 550px;
+    flex-shrink: 1;
+}
+
+#ultima{
+    width: 200px;
+    flex-shrink: 0;
+}
+/*Estilos del aside*/
+
+aside{
+    width: 17.08%;
+    background-color: #366ef1;
+    height: 690px;
+    margin-left: 2.4305%;
+    float: left;
+    box-shadow: inset 0px 0px 0px 1px black;
+}
+
+aside div a{
+    color: white;
+}
+
+#contenido_aside{
+    margin: auto;
+    padding: 11.7187% 11.7187% 0 11.7187%;
+    height: 660px;
+}
+
+.cajasAside{
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(99, 97, 97);
+    border-radius: 12px;
+    padding: 5px 1px;
+    margin-bottom: 30px;
+}
+
+.cajasAside:first-child{
+    margin-top: 20px;
+}
+
+.enlacesAside{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilos del main*/
+main{
+    height: 640px;
+    background-color: white;
+    float: left;
+    width: 71.598%;
+    box-shadow: inset 0px 0px 0px 1px black;
+    text-align: center;
+    padding: 0px 40px 50px 40px;
+}
+
+
+#pagina{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#indicacion{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#bla{
+    margin-top: 10px;
+}
+
+form{
+    margin: auto;
+    font-size: 20px;
+    margin: 8px 0px;
+}
+
+table{
+    margin: auto;
+    margin-top: 100px;
+}
+
+td{
+    padding: 0px 5px;
+}
+
+#boton {
+    width: 100px;
+    font-weight: bold;
+}
+
+
+/*footer*/
+footer{
+    height: 61px;
+    background-color: rgba(51, 51, 51, 0.87);
+    box-shadow: inset 0px 0px 0px 1px black;
+    width: 100%;
+    float: left;
+    margin-top: 3.125%;
+}
